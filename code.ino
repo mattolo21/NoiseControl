@@ -3,7 +3,7 @@ volatile boolean adcDone; // check if adc sample is available
 float spl; // sound pressure level
 boolean adcStarted, samplingOver;
 
-int sampleWindow = 0.105; // sample windows width in mS (NOT ADC SAMPLE FREQUENCY!)
+int sampleWindow = 50; // sample windows width in mS (NOT ADC SAMPLE FREQUENCY!)
 unsigned long startSample, startBuzzer;
 
 // datasheet values
